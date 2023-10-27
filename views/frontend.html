@@ -1,0 +1,67 @@
+!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Front-End</title>
+    <link rel="shortcut icon" href="/assets/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/quiz.css">
+    <!-- <link rel="stylesheet" href="../css/style.css"> -->
+</head>
+<body>
+    
+</body>
+    <div class="pergunta-1" onclick="checarResposta(event)">
+      <h1>Qual linguagem de marcação é fundamental para o desenvolvimento front-end de páginas web?</h1>
+
+      <button>Java</button>
+      <button>Python</button>
+      <button class="opcao-certa">HTML</button>
+      <button>CSS</button>
+    </div>
+
+    <div class="pergunta-2 escondido" onclick="checarResposta(event)">
+      <h1>Qual linguagem de estilo é usada para a formatação e o design de elementos HTML?</h1>
+      <button> JavaScript</button>
+      <button class="opcao-certa">CSS</button>
+      <button>Ruby</button>
+      <button>SQL</button>
+    </div>
+
+    <div class="pergunta-3 escondido" onclick="checarResposta(event)">
+      <h1>Qual framework JavaScript é amplamente utilizado para o desenvolvimento front-end e oferece componentes reutilizáveis?</h1>
+      <button class="opcao-certa">
+        React
+      </button>
+      <button>Angular</button>
+      <button>jQuery</button>
+      <button>PHP</button>
+    </div>
+
+    <div class="pergunta-4 escondido" onclick="checarResposta(event)">
+      <h1>Qual técnica é usada para tornar um site responsivo, adaptando-o a diferentes tamanhos de tela?</h1>
+      <button>Impressão</button>
+      <button class="opcao-certa"> Media queries</button>
+      <button> Rastreamento</button>
+      <button>Debugging</button>
+    
+    </div>
+
+    <div class="pergunta-5 escondido" onclick="checarResposta(event)">
+      <h1>Qual é a principal função do JavaScript no desenvolvimento front-end?</h1>
+      <button>Definir a aparência de um site</button>
+      <button>Manipular a lógica do lado do servidor</button>
+      <button class="opcao-certa">Controlar o comportamento e a interatividade do usuário</button>
+      <button>Gerenciar o banco de dados</button>
+    </div>
+
+    <div class="resultado escondido">
+      <h1>PARABÉNS</h1>
+      <h1>VOCÊ ACERTOU <span class="acertos"></span> DE 5 PERGUNTAS</h1>
+      <button class="final" onclick="voltarParaOFuturo()">
+        Voltar para o começo
+    </div>
+    <script src="../js/quiz.js"></script>
+  </body>
+</html>

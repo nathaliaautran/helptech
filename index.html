@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HelpTech</title>
+        <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+        <link rel="stylesheet" href="/css/style.css" />
+    </head>
+
+    <body>
+        <header class="header">
+            <!-- <a href="#" class="logo">
+                <img src="assets/logo.png" alt="">
+            </a> -->
+            <nav class="navbar">
+                <a href="#home">Início</a>
+                <a href="#about">Sobre</a>
+                <a href="#plano-estudo">Guia de estudo</a>
+                <a href="views/quiz.html">Exercícios e Quiz</a>
+                <a href="#review">Sobre nós</a>
+                <a href="#footer">Contato</a>
+            </nav>
+            <div class="icons">
+                <div class="fas fa-bars" id="menu-btn"></div>
+            </div>
+        </header>
+
+        <main>
+            <section class="home" id="home">
+                <figure>
+                    <img src="assets/Programming.png" alt="”Imagem”" />
+                </figure>
+                <div class="content">
+                    <h1>BEM VINDO(A) AO HELP TECH</h1>
+                    <p>Explore o mundo da tecnologia conosco. Comece sua jornada de aprendizado hoje mesmo!</p>
+                    <!-- <a href="#plano-estudo" class="btn">Vamos começar!</a> -->
+                </div>
+            </section>
+
+            <section class="about" id="about">
+                <div class="row">
+                    <div class="image">
+                        <img src="./assets/Woman chatting online.png" alt="Ilustração de uma garota programando" />
+                    </div>
+                    <div class="content">
+                        <h2>Como surgiu o Help Tech</h2>
+                        <p>
+                            O Help Tech nasceu como um TCC resultante do projeto Meninas in Tech da Fly Educação, em colaboração com a Alura. Ao considerar as dificuldades enfrentadas pelos iniciantes
+                            em programação ao estudar de forma independente e lidar com uma ampla gama de conteúdos, identificamos questões como a falta de direcionamento nos estudos e obstáculos para
+                            avançar. Como solução, desenvolvemos uma plataforma que oferece trilhas de estudo, exercícios interativos, videochamadas em grupo, comunidades de estudo, desafios online,
+                            um planner de estudos e um fórum de dúvidas, garantindo um ambiente de aprendizado acolhedor e orientado.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <aside>
+            <div class="button-container" id="plano-estudo">
+                <button class="button-tec" onclick="mostrarCards('plano-estudo-logica')">
+                    <h3 class="heading"><span>Lógica de programação</span></h3>
+                    <p>Trilha de estudo para logica de programação</p>
+                </button>
+                <button class="button-tec" onclick="mostrarCards('plano-estudo-front')">
+                    <h3 class="heading"><span>Front End</span></h3>
+                    <p>Trilha para tecnologias Front-End</p>
+                </button>
+                <button class="button-tec" onclick="mostrarCards('plano-estudo-back')">
+                    <h3 class="heading"><span>Back End</span></h3>
+                    <p>Trilha de estudo para Back End</p>
+                </button>
+            </div>
+
+            <!-- START: card de logica de programaçaõ -->
+            <section class="plano-estudo" id="plano-estudo-logica">
+                <div class="box-container">
+                    <div class="box">
+                        <img src="assets/logica.png" alt="" />
+                        <a href="#" class="btn">Ver plano de estudo</a>
+                    </div>
+                    <div class="box">
+                        <img src="assets/algoritmo.png" alt="" />
+                        <a href="#" class="btn">Ver plano de estudo</a>
+                    </div>
+
+                    <div class="box">
+                        <img src="assets/estrutura de dados.png" alt="" />
+                        <a href="#" class="btn">Ver plano de estudo</a>
+                    </div>
+                    <div class="box">
+                        <img src="assets/if-else.png" alt="" />
+                        <a href="#" class="btn">Ver plano de estudo</a>
+                    </div>
+                    <div class="box">
+                        <img src="assets/while.png" alt="" />
+                        <a href="#" class="btn">Ver plano de estudo</a>
+                    </div>
+                    <div class="box">
+                        <img src="assets/frameworks.png" alt="" />
+                        <a href="#" class="btn">Ver plano de estudo</a>
+                    </div>
+                </div>
+            </section>
+            <!-- END: card de logica de programaçaõ -->
+
+            <!-- START: card de FRONT-END -->
+            <section class="plano-estudo" id="plano-estudo-front">
+                <div class="box-container">
+                    <div class="box">
+                        <img src="assets/html.png" alt="" />
+                        <a href="views/trilhaestudo.html" class="btn">Ver plano de estudo</a>
+                    </div>
+                    <div class="box">
+                        <img src="assets/css.png" alt="" />
+                        <a href="#" class="btn">Ver plano de estudo</a>
+                    </div>
+
+                    <div class="box">
+                        <img src="assets/javascript.png" alt="" />
+                        <a href="#" class="btn">Ver plano de estudo</a>
+                    </div>
+                    <div class="box">
+                        <img src="assets/git & github.png" alt="" />
+                        <a href="#" class="btn">Ver plano de estudo</a>
+                    </div>
+                    <div class="box">
+                        <img src="assets/node.png" alt="" />
+                        <a href="#" class="btn">Ver plano de estudo</a>
+                    </div>
+                    <div class="box">
+                        <img src="assets/frameworks.png" alt="" />
+                        <a href="#" class="btn">Ver plano de estudo</a>
+                    </div>
+                </div>
+            </section>
+             <!-- END: card de FRONT-END -->
+
+              <!-- START: card de back-END -->
+            <section class="plano-estudo" id="plano-estudo-back">
+                <div class="box-container">
+                    <div class="box">
+                        <img src="assets/java.webp" alt="" />
+                        <a href="#" class="btn">Ver plano de estudo</a>
+                    </div>
+                    <div class="box">
+                        <img src="assets/s.png" alt="" />
+                        <a href="#" class="btn">Ver plano de estudo</a>
+                    </div>
+
+                    <div class="box">
+                        <img src="assets/API.png" alt="" />
+                        <a href="#" class="btn">Ver plano de estudo</a>
+                    </div>
+                    <div class="box">
+                        <img src="assets/git & github.png" alt="" />
+                        <a href="#" class="btn">Ver plano de estudo</a>
+                    </div>
+                    <div class="box">
+                        <img src="assets/node.png" alt="" />
+                        <a href="#" class="btn">Ver plano de estudo</a>
+                    </div>
+                    <div class="box">
+                        <img src="assets/frameworks, back.png" alt="" />
+                        <a href="#" class="btn">Ver plano de estudo</a>
+                    </div>
+                </div>
+            </section>
+            <!-- END: card de back-END -->
+
+            <section class="review" id="review">
+                <h2 class="heading">Sobre <span>nós</span></h2>
+
+                <div class="box-container">
+                    <div class="box">
+                        <p>Estudante e entusiasta da programação, atualmente cursando o 5° semestre em Análise e Desenvolvimento de Sistemas.</p>
+                        <img src="assets/Sobre_nos/profile.jpg" class="user" alt="" />
+                        <h3>Jaíne Rodrigues</h3>
+                        <div class="stars">
+                            <a href="https://www.linkedin.com/in/jaíne" class="fab fa-linkedin" id="cart-btn"></a>
+                            <a href="jainer469@gmail.com" class="fas fa-envelope" id="cart-btn"></a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <p>Com formação em Ciências Biológicas e uma paixão por tecnologia, atualmente em transição de carreira através do Curso de Desenvolvimento Web da Fly Educação.</p>
+                        <img src="./assets/Sobre_nos/profilepic.jpg" class="user" alt="" />
+                        <h3>Nathalia Autran</h3>
+                        <div class="stars">
+                            <a href="https://www.linkedin.com/in/nathaliaautran" class="fab fa-linkedin" id="cart-btn"></a>
+                            <a href="nathaliaautran@gmail.com" class="fas fa-envelope" id="cart-btn"></a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <p>
+                            Técnica em Informática de formação, atualmente cursando 1º semestre do Bacharelado em Sistemas de Informação. Apaixonada por Desenvolvimento Web e concluinte do curso
+                            Meninas In Tech da Fly Educação.
+                        </p>
+                        <img src="assets/Sobre_nos/profilepic2.jpg" class="user" alt="" />
+                        <h3>Emanuelle Araújo</h3>
+                        <div class="stars">
+                            <a href=" https://www.linkedin.com/in/emanuelle-de-araujo-da-hora/" class="fab fa-linkedin" id="cart-btn"></a>
+                            <a href="araujoemanuelle262@gmail.com" class="fas fa-envelope" id="cart-btn"></a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <p>
+                            Maria Clara, natural de João Pessoa, estudante do ensino médio
+                        </p>
+                        <img src="assets/Sobre_nos/clara.jpg" class="user" alt="" />
+                        <h3>Maria Clara Gomes</h3>
+                        <div class="stars">
+                            <a href="https//:www.linkedin.com/in/" class="fab fa-linkedin" id="cart-btn"></a>
+                            <a href="aclarameloo456@gmail.com" class="fas fa-envelope" id="cart-btn"></a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <p>
+                            Menina, paraibana, nordestina, estudante de Engenharia de Produção, curiosa e persistente em seus objetivos.
+                        </p>
+                        <img src="assets/Sobre_nos/julianne.jpg" class="user" alt="" />
+                        <h3>Julianne Pereira</h3>
+                        <div class="stars">
+                            <a href="https//:www.linkedin.com/in/" class="fab fa-linkedin" id="cart-btn"></a>
+                            <a href="juliannejpds@gmail.com" class="fas fa-envelope" id="cart-btn"></a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <p>
+                            Meu nome é Andressa, tenho 17 anos, sou de Pernambuco e atualmente sou estudante de ensino médio.
+                        </p>
+                        <img src="assets/Sobre_nos/andressa.jpg" class="user" alt="" />
+                        <h3>Andressa Rodrigues</h3>
+                        <div class="stars">
+                            <a href="https//:www.linkedin.com/in/" class="fab fa-linkedin" id="cart-btn"></a>
+                            <a href="andressarodriguesferreira4@gmail.com" class="fas fa-envelope" id="cart-btn"></a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <p>
+                            Uma pessoa curiosa, é introvertida que ama animais, principalmente gatos, quer seguir um sonho na área de psicologia e na área de TI em simultâneo, tem uma paixão incontrolável pela literatura russa, jogos e mangás.
+                        </p>
+                        <img src="assets/Sobre_nos/talita.jpg" class="user" alt="" />
+                        <h3>Talita Mayara</h3>
+                        <div class="stars">
+                            <a href="https//:www.linkedin.com/in/" class="fab fa-linkedin" id="cart-btn"></a>
+                            <a href=" dear.19.27.06@gmail.com " class="fas fa-envelope" id="cart-btn"></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </aside>
+
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdiJAgbOHBFDtgSgG2doJe3mrZr-VvuhG_Uvu7pIBk95DBwWw/viewform?vc=0&c=0&w=1&flr=0" class="btn">Deixe o seu feedback</a>
+        <footer id="footer">
+            <section class="footer">
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="#" class="fab fa-pinterest"></a>
+                </div>
+            </section>
+        </footer>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
